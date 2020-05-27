@@ -31,7 +31,7 @@ class Net(nn.Module):
         return x
         
 """
-#From our notebook titled: Traffic Sign Detection with MCDNN with data augmentation
+#From our notebook titled: Traffic_Sign_Detection_with_IDSIA_MCDNN_no_data_augmentation.ipynb
 #In the notebook the model class is named TrafficSignNet
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
